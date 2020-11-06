@@ -20,7 +20,6 @@ switchControl.addEventListener('change', onSwitch)
 switchControl.addEventListener('change', localSave)
 document.addEventListener('DOMContentLoaded', saveTheme);
 
-
 function onSwitch(evt) {
     if (switchControl.checked) {
         setDarkTheme()
@@ -28,7 +27,6 @@ function onSwitch(evt) {
             setLightTheme()
           }
     }
-
     
 function setDarkTheme() {
   body.classList.add(Theme.DARK);
