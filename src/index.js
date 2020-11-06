@@ -1,5 +1,3 @@
-import '../src/styles.css'
-import { template } from "handlebars";
 import CardTmp from './template/cards.hbs'
 import menu from '../src/menu.json'
 const list = CardTmp(menu)
