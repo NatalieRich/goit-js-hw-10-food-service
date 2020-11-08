@@ -1,5 +1,6 @@
-import CardTmp from './template/cards.hbs'
-import menu from './menu.json'
+import CardTmp from "./template/cards.hbs"
+import menu from "./menu.json"
+console.log(CardTmp)
 const list = CardTmp(menu)
 
 const menuList = document.querySelector('.js-menu')

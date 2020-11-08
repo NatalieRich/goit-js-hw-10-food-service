@@ -1,29 +1,35 @@
 {
-  "name": "goit-js-hw-10-food-service",
+  "name": "parcel-project-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "dependencies": {
-    "handlebars": "^4.7.6",
-    "parcel-bundler": "^1.12.4"
-  },
-  "devDependencies": {
-    "parcel-plugin-handlebars-precompile": "^1.0.2"
-  },
+  "homepage": "https://natalierich.github.io/goit-js-hw-10-food-service/",
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html",
-    "predeploy": "npm run build -- --public-url=/goit-js-hw-10-food-service/",
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html",
+    "predeploy": "npm run build -- --public-url /goit-js-hw-10-food-service/",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/NatalieRich/goit-js-hw-10-food-service.git"
+    "url": "git+https://github.com/natalierich/goit-js-hw-10-food-service"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/NatalieRich/goit-js-hw-10-food-service/issues"
+    "url": "https://github.com/natalierich/goit-js-hw-10-food-service/issues"
   },
-  "homepage": "https://github.com/NatalieRich/goit-js-hw-10-food-service#readme"
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "posthtml-include": "^1.4.3",
+    "sass": "^1.26.9"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.6",
+    "parcel-plugin-handlebars": "^0.4.4",
+    "template": "^0.17.5"
+  }
 }
